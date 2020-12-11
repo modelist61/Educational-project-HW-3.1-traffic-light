@@ -29,7 +29,6 @@ struct ContentView: View {
                 }
                 Spacer()
 //              ButtonView(action: changeColor(), longPressAction: turnOff())
-                
                 ZStack {
                     Image("43098")
                         .resizable()
