@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F19C0D9258224F2004E7B18 /* HW_3_1_traffic_lightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0D8258224F2004E7B18 /* HW_3_1_traffic_lightApp.swift */; };
-		7F19C0DB258224F2004E7B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0DA258224F2004E7B18 /* ContentView.swift */; };
+		7F19C0DB258224F2004E7B18 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0DA258224F2004E7B18 /* TrafficLight.swift */; };
 		7F19C0DD258224F8004E7B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F19C0DC258224F8004E7B18 /* Assets.xcassets */; };
 		7F19C0E0258224F8004E7B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F19C0DF258224F8004E7B18 /* Preview Assets.xcassets */; };
+		7F19C0E9258225CE004E7B18 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0E8258225CE004E7B18 /* CircleView.swift */; };
+		7F19C0ED2582285E004E7B18 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0EC2582285E004E7B18 /* ButtonView.swift */; };
+		7F19C0F225823525004E7B18 /* HW-3-1-traffic-light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19C0F125823525004E7B18 /* HW-3-1-traffic-light.swift */; };
+		7F421F4525838E4D001475A8 /* TrafficLightImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F421F4425838E4D001475A8 /* TrafficLightImage.swift */; };
+		7F421F4925838E9D001475A8 /* CustomBacground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F421F4825838E9D001475A8 /* CustomBacground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F19C0D5258224F2004E7B18 /* HW 3.1 traffic light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3.1 traffic light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F19C0D8258224F2004E7B18 /* HW_3_1_traffic_lightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_3_1_traffic_lightApp.swift; sourceTree = "<group>"; };
-		7F19C0DA258224F2004E7B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F19C0DA258224F2004E7B18 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 		7F19C0DC258224F8004E7B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F19C0DF258224F8004E7B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F19C0E1258224F8004E7B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F19C0E8258225CE004E7B18 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		7F19C0EC2582285E004E7B18 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7F19C0F125823525004E7B18 /* HW-3-1-traffic-light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW-3-1-traffic-light.swift"; sourceTree = "<group>"; };
+		7F421F4425838E4D001475A8 /* TrafficLightImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightImage.swift; sourceTree = "<group>"; };
+		7F421F4825838E9D001475A8 /* CustomBacground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBacground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,12 @@
 		7F19C0D7258224F2004E7B18 /* HW 3.1 traffic light */ = {
 			isa = PBXGroup;
 			children = (
-				7F19C0D8258224F2004E7B18 /* HW_3_1_traffic_lightApp.swift */,
-				7F19C0DA258224F2004E7B18 /* ContentView.swift */,
-				7F19C0DC258224F8004E7B18 /* Assets.xcassets */,
-				7F19C0E1258224F8004E7B18 /* Info.plist */,
-				7F19C0DE258224F8004E7B18 /* Preview Content */,
+				7F19C0DA258224F2004E7B18 /* TrafficLight.swift */,
+				7F421F4825838E9D001475A8 /* CustomBacground.swift */,
+				7F421F4425838E4D001475A8 /* TrafficLightImage.swift */,
+				7F19C0E8258225CE004E7B18 /* CircleView.swift */,
+				7F19C0EC2582285E004E7B18 /* ButtonView.swift */,
+				7F421F4C25839846001475A8 /* System */,
 			);
 			path = "HW 3.1 traffic light";
 			sourceTree = "<group>";
@@ -67,6 +76,17 @@
 				7F19C0DF258224F8004E7B18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F421F4C25839846001475A8 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7F19C0F125823525004E7B18 /* HW-3-1-traffic-light.swift */,
+				7F19C0DC258224F8004E7B18 /* Assets.xcassets */,
+				7F19C0E1258224F8004E7B18 /* Info.plist */,
+				7F19C0DE258224F8004E7B18 /* Preview Content */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F19C0DB258224F2004E7B18 /* ContentView.swift in Sources */,
-				7F19C0D9258224F2004E7B18 /* HW_3_1_traffic_lightApp.swift in Sources */,
+				7F19C0E9258225CE004E7B18 /* CircleView.swift in Sources */,
+				7F421F4925838E9D001475A8 /* CustomBacground.swift in Sources */,
+				7F19C0DB258224F2004E7B18 /* TrafficLight.swift in Sources */,
+				7F19C0F225823525004E7B18 /* HW-3-1-traffic-light.swift in Sources */,
+				7F19C0ED2582285E004E7B18 /* ButtonView.swift in Sources */,
+				7F421F4525838E4D001475A8 /* TrafficLightImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +292,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HW 3.1 traffic light/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HW 3.1 traffic light/System/Preview Content\"";
 				DEVELOPMENT_TEAM = WM9XM3NC73;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "HW 3.1 traffic light/Info.plist";
+				INFOPLIST_FILE = "HW 3.1 traffic light/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +314,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HW 3.1 traffic light/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HW 3.1 traffic light/System/Preview Content\"";
 				DEVELOPMENT_TEAM = WM9XM3NC73;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "HW 3.1 traffic light/Info.plist";
+				INFOPLIST_FILE = "HW 3.1 traffic light/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
